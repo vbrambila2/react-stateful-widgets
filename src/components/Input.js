@@ -59,8 +59,6 @@ export default function Input() {
     color: inputValue.length > 10 ? 'crimson' : 'royalblue', /* STEP 2 */
   };
 
-  console.log(inputValue.length);
-
   return (
     <div className='widget-input container'>
       <h2>Input</h2>
